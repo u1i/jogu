@@ -9,4 +9,4 @@
 
 ## Run with Docker
 
-docker run -d -p 8080:8080 u1ih/jogu
+docker run -d -p 8080:8080 u1ih/jogu:latest
