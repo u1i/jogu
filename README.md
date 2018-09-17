@@ -10,3 +10,13 @@
 ## Run with Docker
 
 docker run -d -p 8080:8080 u1ih/jogu:latest
+
+[Dockerhub](https://hub.docker.com/r/u1ih/jogu/)
+
+
+
+
+### Acknowledgements 
+
+Based on the fabulous work of [Sebastian Beuke](https://github.com/madnight/docker-alpine-wkhtmltopdf)
+

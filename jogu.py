@@ -44,6 +44,9 @@ def swagger():
             "post": {
                 "operationId": "POST_pdf",
                 "summary": "Create PDF",
+                "tags": [
+                    "PDF"
+                ],
                 "description": "Input some HTML (including images, CSS and all!) and get a PDF.",
                 "consumes": [
                     "text/html"

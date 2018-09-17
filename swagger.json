@@ -1,1 +1,34 @@
-{ "swagger": "2.0", "info": { "version": "", "title": "jogu", "description": "Create PDFs from HTML input" }, "basePath": "/api", "paths": { "/pdf": { "post": { "operationId": "POST_pdf", "summary": "Create PDF", "description": "Input some HTML (including images, CSS and all!) and get a PDF.", "consumes": [ "text/html" ], "produces": [ "application/pdf" ], "responses": { "default": { "description": "", "schema": {} } } } } }, "definitions": {} }
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "",
+        "title": "jogu",
+        "description": "Create PDFs from HTML input"
+    },
+    "basePath": "/api",
+    "paths": {
+        "/pdf": {
+            "post": {
+                "operationId": "POST_pdf",
+                "summary": "Create PDF",
+                "tags": [
+                    "PDF"
+                ],
+                "description": "Input some HTML (including images, CSS and all!) and get a PDF.",
+                "consumes": [
+                    "text/html"
+                ],
+                "produces": [
+                    "application/pdf"
+                ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {}
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}
