@@ -7,10 +7,26 @@
     },
     "basePath": "/api",
     "paths": {
+        "/form": {
+            "get": {
+                "operationId": "GET_form",
+                "summary": "Form",
+                "tags": [
+                    "Testing"
+                ],
+                "description": "Renders a simple form for using the API",
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {}
+                    }
+                }
+            }
+        },
         "/pdf": {
             "post": {
                 "operationId": "POST_pdf",
-                "summary": "Create PDF",
+                "summary": "Create PDF from HTML",
                 "tags": [
                     "PDF"
                 ],
@@ -20,6 +36,35 @@
                 ],
                 "produces": [
                     "application/pdf"
+                ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {}
+                    }
+                }
+            }
+        },
+        "/url": {
+            "post": {
+                "operationId": "POST_url",
+                "summary": "Create PDF from URL",
+                "tags": [
+                    "PDF"
+                ],
+                "description": "Input a URL and get a PDF.",
+                "consumes": [
+                    "text/html"
+                ],
+                "produces": [
+                    "application/pdf"
+                ],
+                "parameters": [
+                    {
+                        "name": "url",
+                        "in": "query",
+                        "type": "string"
+                    }
                 ],
                 "responses": {
                     "default": {
