@@ -18,7 +18,6 @@ docker run -d -p 8080:8080 u1ih/jogu:latest
 
 [API Documentation](http://jogu.sotong.io/docs/) | [Swagger File](swagger.json)
 
-
 ### Acknowledgements 
 
 This API is using the [wkhtmltopdf](https://wkhtmltopdf.org/) library and a base docker image built by [Sebastian Beuke](https://github.com/madnight/docker-alpine-wkhtmltopdf)
