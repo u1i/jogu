@@ -16,7 +16,7 @@ docker run -d -p 8080:8080 u1ih/jogu:latest
 
 ### Use the API
 
-[Swagger File](swagger.json)
+[API Documentation](http://jogu.sotong.io/docs/) | [Swagger File](swagger.json)
 
 
 ### Acknowledgements 
