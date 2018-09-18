@@ -5,7 +5,7 @@ app = Bottle()
 
 @app.error(404)
 def error404(error):
-    return "Nothing here, sorry :("
+    return "Nothing here, sorry"
 
 @app.route('/api/pdf', method='POST')
 def create_from_html():
