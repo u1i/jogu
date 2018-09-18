@@ -5,7 +5,7 @@
 
 ## ... and get a PDF!
 
-![](https://raw.githubusercontent.com/u1i/jogu/master/img/jogu2.png)
+![](https://raw.githubusercontent.com/u1i/jogu/master/img/jogu3.png)
 
 ## Run with Docker
 
